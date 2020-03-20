@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protos;
+
+import "protos/foo.proto";
+import "protos/bar.proto";
+
+service TestService {
+  rpc FooQuery(FooRequest) returns (FooResponse);
+
+  rpc BarQuery(BarRequest) returns (BarResponse);
+}

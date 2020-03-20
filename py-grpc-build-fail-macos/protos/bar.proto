@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protos;
+
+message BarRequest {
+  string a = 1;
+  string b = 2;
+}
+
+message BarResponse {
+  string msg = 1;
+}
