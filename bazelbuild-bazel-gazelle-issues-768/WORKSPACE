@@ -73,10 +73,11 @@ go_repository(
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 go_repository(
-    name = "com_github_stevenwjy_private_repo_test",
-    importpath = "github.com/stevenwjy/private-repo-test",
-    sum = "h1:AqaLCQGR0zHmNksqVzvW/nVk50BBf2TPqHAT+nEffsI=",
-    version = "v0.0.0-20200428184503-7619571a4b81",
+    name = "com_github_stevenwjy_new_private_test",
+    importpath = "github.com/stevenwjy/new-private-test",
+    commit = "dae6b546bbddfe2a31ff980bba2d916dcb7462c4",
+    remote = "https://github.com/stevenwjy/new-private-test",
+    vcs = "git",
 )
 
 go_repository(
