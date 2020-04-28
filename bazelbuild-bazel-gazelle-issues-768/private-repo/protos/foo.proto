@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "github.com/stevenwjy/private-repo-test/protos";
+
+package protos;
+
+message FooRequest {
+  string a = 1;
+  string b = 2;
+}
+
+message FooResponse {
+  string msg = 1;
+}

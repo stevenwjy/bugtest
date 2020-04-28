@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package protos;
+
+option go_package = "github.com/stevenwjy/private-repo-test/protos";
+
+import "protos/foo.proto";
+import "protos/bar.proto";
+
+service TestService {
+  rpc FooQuery(protos.FooRequest) returns (protos.FooResponse);
+
+  rpc BarQuery(protos.BarRequest) returns (protos.BarResponse);
+}
