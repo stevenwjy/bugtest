@@ -1,4 +1,4 @@
-workspace(name = "com_github_stevenwjy_bugtest")
+workspace(name = "com_github_stevenwjy_private_repo_test")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
