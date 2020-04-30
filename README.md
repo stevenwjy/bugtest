@@ -1,3 +1,3 @@
 # bugtest
 
-Collection of some potential bugs in open source code.
+Collection of code for testing purposes.
