@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-router-5.1.0-redirect-bug",
-    "slug": "expo-router-5.1.0-redirect-bug",
+    "name": "expo-router-redirect-bug",
+    "slug": "expo-router-redirect-bug",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
