@@ -8,6 +8,7 @@ export default function OneLayout() {
       }}
     >
       <Stack.Screen name="index" />
+      <Stack.Screen name="[param]" />
     </Stack>
   );
 }
